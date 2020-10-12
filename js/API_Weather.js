@@ -23,6 +23,7 @@ class API_WEATHER{
     return axios
     .get(`${API_URL}?q=${this.city}&units=metric&appid=${API_KEY}`, {
       crossdomain: true
+      
     })
   }
   // Retourne l'element HTML de l'icon symbolisant la méteo.
